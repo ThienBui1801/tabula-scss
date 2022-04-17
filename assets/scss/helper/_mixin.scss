@@ -1,0 +1,15 @@
+@mixin flex($ds, $jc, $ai) {
+  display: $ds;
+  justify-content: $jc;
+  align-items: $ai;
+};
+
+@mixin font($size, $weight, $l-height) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $l-height;
+}
+
+@mixin position($ps) {
+  position: $ps;
+}

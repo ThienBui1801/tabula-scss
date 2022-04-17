@@ -1,0 +1,55 @@
+#about {
+  @include position(relative);
+  padding-top: $pd-28;
+  z-index: 800;
+
+  .img-top {
+    @include position(absolute);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+
+    img {
+      display: inline-block;
+      width: 100%;
+    }
+  }
+
+  .about {
+    // @include flex(flex, space-between, center);
+    width: 80%;
+    margin: 0 auto;
+    background-color: $color-white;
+
+    .row {
+      align-items: center;
+      padding: 0 $pd-4;
+    }
+
+    .content {
+      flex-direction: column;
+      @include flex(flex, center, start);
+
+      p {
+        @include font($text-base, $font-bold, $line-lg);
+        color: $color-pink;
+        margin-bottom: $mg-1;
+      }
+
+      h2 {
+        @include font($text-6xl, $font-bold, $line-1);
+      }
+    }
+
+    .image {
+      text-align: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

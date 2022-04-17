@@ -1,0 +1,16 @@
+.btn-tabula {
+  color: $color-white-1;
+  padding: $pd-3 $pd-5;
+  border-radius: $br-6;
+  background-color: $color-pink;
+  transform-origin: center;
+  transform: scale(0);
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-pink;
+    transform: scale(1);
+    background-color: $color-white-1;
+  }
+}

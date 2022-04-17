@@ -1,0 +1,38 @@
+#header {
+  .header {
+    width: 80%;
+    // background-color: red;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .navbar-collapse {
+    justify-content: end;
+  }
+
+  .nav-link {
+    padding-right: 50px;
+    color: $color-dark-1;
+    @include font($text-base, $font-semibold, $line-lg);
+
+    &:hover {
+      color: $color-pink;
+    }
+  }
+
+  .socials {
+    @include flex(flex, center, center);
+
+    .nav-link {
+      padding: 8px;
+    }
+
+    .contact {
+      padding: 0 $pd-5;
+    }
+  }
+}

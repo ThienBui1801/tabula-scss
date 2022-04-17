@@ -1,0 +1,141 @@
+.btn-tabula {
+  color: #f5f9fe;
+  padding: 12px 20px;
+  border-radius: 24px;
+  background-color: #b61984;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-tabula:hover {
+  text-decoration: none;
+  color: #b61984;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background-color: #f5f9fe;
+}
+
+#header .header {
+  width: 80%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+#header .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#header .nav-link {
+  padding-right: 50px;
+  color: #181818;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+#header .nav-link:hover {
+  color: #b61984;
+}
+
+#header .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header .socials .nav-link {
+  padding: 8px;
+}
+
+#header .socials .contact {
+  padding: 0 20px;
+}
+
+#about {
+  position: relative;
+  padding-top: 112px;
+  z-index: 800;
+}
+
+#about .img-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+
+#about .img-top img {
+  display: inline-block;
+  width: 100%;
+}
+
+#about .about {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#about .about .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 16px;
+}
+
+#about .about .content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+#about .about .content p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.75rem;
+  color: #b61984;
+  margin-bottom: 4px;
+}
+
+#about .about .content h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#about .about .image {
+  text-align: center;
+}
+
+#about .about .image img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
